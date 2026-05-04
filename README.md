@@ -47,3 +47,42 @@ access-list 100 permit ip any any
 
 * VLAN segmentation improves security
 * Routing enables communication between networks
+
+
+
+
+enterprise-network-lab/
+│── README.md
+│── configs/
+│    ├── router.txt
+│    ├── switch.txt
+│── diagrams/
+│    ├── topology.png
+│── screenshots/
+│    ├── dhcp-working.png
+│    ├── vlan-test.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 🚀 Project Highlights
+- Implemented VLAN segmentation for 3 departments
+- Configured Router-on-a-Stick for inter-VLAN routing
+- Enabled DHCP for automatic IP assignment
+- Applied ACL for network security
+
+## 🔍 Troubleshooting
+- Fixed trunk misconfiguration issue
+- Resolved DHCP pool mismatch
